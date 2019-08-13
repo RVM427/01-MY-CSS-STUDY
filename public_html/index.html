@@ -1,26 +1,53 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Study CSS</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>page title</title>
-        <style>h2{
-                color:yellow;
-            }
-        </style>
-        
-        <link rel="stylesheet"  href="CSS/mystyle.css">
-       
-        <link rel="shortcut icon" type=image/png href=IMG/favicon.png>
-        
-    </head>
-    <body>
+  <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="shortcut icon" type=image/png href=IMG/favicon.png>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+ 
 
-        <h1 style="color: red">Hello India</h1>
-        <h2>Cricket</h2>
-        <h3>CSS external</h3>
+   
+    <title>Critical Path</title>
+    
+    
+    <script>
         
-     
-    </body>
+        	
+         
+ 
+        
+        document.addEventListener("DOMContentLoaded", function()
+        {
+            console.log("DOM content Loaded , DOM and CSSOM created :: "+  new Date().getHours() + ":" +  new Date().getMinutes() + ":" +  new Date().getSeconds()+"::"+ new Date().getMilliseconds());
+         });
+         
+        
+ 
+         window.addEventListener('load', function() {
+                  console.log('All assets are loaded :: '+  new Date().getHours() + ":" +  new Date().getMinutes() + ":" + new Date().getSeconds()+"::"+new Date().getMilliseconds())
+         });
+         
+         
+      
+    </script>
+  </head>
+    <body >
+   
+   
+   <img src="IMG/MM1.jpg" alt="Paris" width="300" height="300">
+  <img src="IMG/1.jpg" alt="Paris" width="300" height="300">
+   <img src="IMG/MM3.jpg" alt="Paris" width="300" height="300">
+      <img src="IMG/MM4.jpg" alt="Paris" width="300" height="300">
+    <p>Hello <span>web performance</span> students!</p>
+    <script   src="js/my-javascript-file.js"></script>  
+    
+    <!--
+     <script>
+         while(true){
+             console.log("hey");
+         }
+         
+     </script>
+    -->
+     </body>
 </html>
