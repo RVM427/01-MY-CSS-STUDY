@@ -1,62 +1,26 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <link rel="shortcut icon" type=image/png href=IMG/favicon.png>
-   
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>page title</title>
+        <script src="js/my-javascript-file.js"></script>
+        <link rel="stylesheet" href="CSS/my-css-file.css" />
+        <link rel="shortcut icon" type=image/png href=IMG/favicon.png>
+    </head>
+    <body>
 
-   
-    <title>Critical Path</title>
-    
-    
-    <script>
-        
-        	
-         
- 
-        
-        document.addEventListener("DOMContentLoaded", function()
-        {
-            console.log("DOM content Loaded , DOM and CSSOM created :: "+  new Date().getHours() + ":" +  new Date().getMinutes() + ":" +  new Date().getSeconds()+"::"+ new Date().getMilliseconds());
-         });
-         
-        
- 
-         window.addEventListener('load', function() {
-                  console.log('All assets are loaded :: '+  new Date().getHours() + ":" +  new Date().getMinutes() + ":" + new Date().getSeconds()+"::"+new Date().getMilliseconds())
-         });
-         
-         
-      
-    </script>
-  </head>
-    <body >
+        <h2>Demonstrating the Box Model</h2>
         
         
-      
-   
-   <img src="IMG/MM1.jpg" alt="Paris" width="300" height="300">
-  <img src="IMG/1.jpg" alt="Paris" width="300" height="300">
-   <img src="IMG/MM3.jpg" alt="Paris" width="300" height="300">
-      <img src="IMG/MM4.jpg" alt="Paris" width="300" height="300">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Kaiserliche_Marine_Bliz_mit_Torpedobootsdivisionen_bei_Stubbenkammer_von_Friedrich_Schwinge%2C_nr10_aus_G._Wislicenus%2C_Unsre_Kriegsflotte.jpg" alt="Paris" width="300" height="300">
-    <p>Hello <span>web performance</span> students!</p>
-   
- 
-    <!--
-     <script>
-         while(true){
-             console.log("hey");
-         }
-         
-     </script>
-    -->
-        
-   
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-      <script   src="js/my-javascript-file.js"></script> 
 
-      
- 
+        <p>The CSS box model is essentially a box that wraps around every HTML element. It consists of: borders, padding, margins, and the actual content.</p>
+         
+        <div>This text is the content of the box. We have added a 50px padding, 20px margin and a 15px green border. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+        <p>margin-right + border-right + padding-right + width + padding-left + border-left + margin-left
+</p>
+ <p> margin-top + border-top + padding-top + height + padding-bottom + border-bottom + margin-bottom
+
+</p>
     </body>
 </html>
+
