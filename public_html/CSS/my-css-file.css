@@ -1,9 +1,17 @@
- 
-div {
-  background-color: lightgrey;
+#example1 {
+  box-sizing: content-box;  
   width: 300px;
-  border: 15px solid green;
-  padding: 50px;
-  margin: 20px;
+  height: 100px;
+  background: grey;
+  padding: 30px;  
+  border: 10px solid blue;
 }
- 
+
+#example2 {
+  box-sizing: border-box;
+  width: 300px;
+  height: 100px;
+  padding: 30px;  
+    background: grey;
+  border: 10px solid blue;
+}
