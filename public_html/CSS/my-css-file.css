@@ -1,17 +1,37 @@
-#example1 {
-  box-sizing: content-box;  
+#wrapper {
+  background: #ddd;
+  text-align: center;
+}
+.donothing {
+  background: orange;
+ 
+  border-color: green;
+ border: 10px solid blue;
+  margin: 40px;
   width: 300px;
   height: 100px;
-  background: grey;
-  padding: 30px;  
-  border: 10px solid blue;
+  /* default for div is display:block */
 }
 
-#example2 {
-  box-sizing: border-box;
+.linethemup {
+  background: red;
+  display: inline;
+  margin: 40px;
+  width: 300px;
+  border: 10px solid blue;
+  height: 100px;
+  /* notice how these inline blocks ignore width/height and margin top/bottom? */
+  /* notice how width is determined by the content/text inside the div? */
+}
+
+.inline-block-case {
+  background: purple;
+  display: inline-block;
+  margin: 40px;
   width: 300px;
   height: 100px;
-  padding: 30px;  
-    background: grey;
   border: 10px solid blue;
+  /* best of both worlds: you get inline alignment with benefits of sizing/margin that blocks have */
+
+  /* also notice how text-align:center on the wrapper allows you to center these in regards to the wrapper */
 }
